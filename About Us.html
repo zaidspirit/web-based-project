@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en-JO">
+
+<head>
+
+    <title>Boycott | Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS.css">
+    <link rel="icon" href="Images/PalestineFlagSquare.png" type="image/png">
+</head>
+
+<body>
+    <header style="margin: auto;">
+        <div class="company-name" style="font-size: 60px;"><a href="Home Page.html"
+                style="text-decoration: none;">Boycott.com</a></div>
+
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="Home Page.html">Home Page</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+                <li><a href="Products and Services.HTML">Products and Services</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1></h1>
+    <div id="About Us">
+        <P style="font-size: 30PX;">Located in the heart of Amman, Boycott is more than just a platform—it's a movement. We're dedicated to empowering consumers with the knowledge to make informed choices about the brands they support. Our mission is clear: to assist our valued clients in identifying and boycotting brands that financially support Israel.
+
+            In a world where every purchase can make a difference, Boycott strives to be a beacon of transparency and responsibility. We meticulously research and provide up-to-date information on companies that engage in actions contrary to human rights and international law in Palestine. By doing so, we enable our users to align their purchasing power with their ethical values.
+            
+            At Boycott, we believe in the power of collective action. Every click, every informed decision contributes to a larger movement towards justice and equality. Join us in our quest to promote ethical consumerism, making a tangible impact one boycott at a time.</P>
+    </div>
+
+
+    <footer>
+        <div>
+            <a href="Contact Us.html" style="color: black;">
+                <h2 style="font-size: 40px; text-decoration: none;" ">Contact Us</h2></a>
+    </div>
+    Get in touch with us:
+    <ul>
+      <li><a href=" mailto:Boycott@Business.com" >Boycott@Business.com
+            </a></li>
+            <li>Phone: +962 111111111</li>
+            <li>Address: 123 Main Street, Amman, Jordan</li>
+            </ul>
+            Connect with us on social media:<br>
+            <ul>
+                <div>
+                    <li><a href="https://www.facebook.com/">Facebook</a> </li>
+                    <li><a href="https://www.Twitter.com/">Twitter</a> </li>
+                    <li><a href="https://www.Instagram.com/">Instagram</a> </li>
+            </ul>
+        </div>
+    </footer>
+
+  
+
+    <script>
+        function toggleMenu() {
+            var navbar = document.querySelector('.navbar');
+            navbar.style.display = (navbar.style.display === 'none' || navbar.style.display === '') ? 'block' : 'none';
+        }
+
+        // Close the navbar when a link is clicked
+        document.querySelectorAll('.nav-list li a').forEach(function (link) {
+            link.addEventListener('click', function () {
+                var navbar = document.querySelector('.navbar');
+                navbar.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+
+</html>
